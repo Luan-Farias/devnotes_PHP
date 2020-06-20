@@ -28,3 +28,5 @@ To test the api you can access `base_url/api/ping.php` ny GET method. The respon
 To create a note you can access `base_url/api/insert.php` by the POST method, and in the body of the request may have a title and a body. So the response may be a error(empty if all works) and a result with the inserted note.
 
 To get all notes you can access `base_url/api/getall.php` by the GET method, and will get the id and the title of all notes in database. The response will be a error(empty if all works) and a result with all the id and title of all notes.
+
+To get a only note you can access `base_url/api/get.php` by the GET method, and will get all informations of the note in database. In the query params may have a id of the note that you want to get. The response will be a error(empty if all works) and a result with the informations of the note.
