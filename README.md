@@ -24,3 +24,5 @@ The app use a database maden in mysql called devnotes and every note has:
 - body
 
 To test the api you can access `base_url/api/ping.php` ny GET method. The response will be a error(empty if all works), a result(error and result are default) with a pong equals true.
+
+To create a note you can access `base_url/api/insert.php` by the POST method, and in the body of the request may have a title and a body. So the response may be a error(empty if all works) and a result with the inserted note.
