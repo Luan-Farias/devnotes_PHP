@@ -32,3 +32,5 @@ To get all notes you can access `base_url/api/getall.php` by the GET method, and
 To get a only note you can access `base_url/api/get.php` by the GET method, and will get all informations of the note in database. In the query params may have a id of the note that you want to get. The response will be a error(empty if all works) and a result with the informations of the note.
 
 To edit a note you can access `base_url/api/update.php` by the PUT method, and in the body of the method may have an id, a title and the body of the note, so will be updated in database the note with the id that comes from body of the request. The response will be a error(empty if all works) and a result with the informations of the note.
+
+To delete a note you can access `base_url/api/delete.php` by the DELETE method, and in the request of the body may have an id. The response will be a error(empty if all works) and a result empty.
